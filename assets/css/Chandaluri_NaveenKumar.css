@@ -1,0 +1,156 @@
+body {
+	border: 3px double black;
+}
+#over img {
+	margin-top: 200px;
+	margin-right: 10px;
+	display: block;
+
+}
+
+p.background { 
+    font-style: italic;
+	text-align: left;
+	color: black;
+	font-weight: bolder;
+}
+
+a[target] {
+    color: #DC143C;
+}
+a:active {
+    background-color: yellow;
+}
+:root {   
+	background: #ffffff url("../welcome.jpg");
+	background-position: 1px -340px;
+	background-size: 1500px 1000px;
+}
+h1.aboutMe {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	color: #34B334;
+}
+#backgroundHeader {
+	color: 	#8A2BE2;
+}
+#plansHeader {
+	color: #8A2BE2;
+}
+#interestsHeader {
+	color: 	#8B0000;
+}
+footer.contact {
+	text-align: left;
+	text-align: bottom;
+	font-weight: bolder;
+}
+#section {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+}
+
+p.background { 
+    font-style: italic;
+	text-align: left;
+}
+p.background { 
+    font-style: italic;
+	text-align: left;
+}
+.img-circle {
+    border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 3px solid #000000;
+	left:200 px;
+    top: 10px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+input[type=text], select, textarea {
+    width: 40%; 
+	height: 40%;
+    padding: 5px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 25px; 
+    margin-bottom: 5px; 
+    
+}
+.link {
+	float : right;
+}
+.tbalign {
+    	align-content : center;
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	align-content: center;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+	align-content: center;
+    padding: 10px;
+}
+.videos {
+	float: right;
+}
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:SlateBlue;
+  text-align: center; 
+  text-decoration: underline
+}
+
+
+table, th, td {
+    align-content: center;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}

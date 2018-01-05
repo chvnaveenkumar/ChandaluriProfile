@@ -1,0 +1,37 @@
+{
+  "name": "a03chandaluri",
+  "version": "1.0.0",
+  "description": "Gpa calculator",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "latest",
+    "morgan": "latest",
+    "body-parser": "latest",
+    "ejs": "latest",
+    "mailgun-js": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/S530742/A03Chandaluri.git"
+  },
+  "keywords": [
+    "GPA",
+    "Calculator"
+  ],
+  "author": "Naveen Kumar Chandaluri",
+  "license": "ISC",
+  "homepage": "https://github.com/S530742/A03Chandaluri.git"
+}

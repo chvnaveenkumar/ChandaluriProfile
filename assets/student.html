@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js">   </script>   
+<script src="js/gpa.js"></script>
+
+  <meta charset="UTF-8">
+    <link rel="stylesheet" 
+			  type="text/css" 
+			  href="Chandaluri_NaveenKumar.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Naveen</title>
+    <script type="text/javascript"
+    src="gpa.js">
+    </script>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="home">Home</a></li>
+  <li><a href="about">About Me</a></li>
+  <li><a href="student">GPA Calculator</a></li>
+  <li><a href="Contact">Contact</a></li>
+  <li><a href="guestbook">Guestbook</a></li>
+  <li class="link"><a href="https://www.linkedin.com/in/naveen-kumar-chandaluri-588a1b16/"><img src="link.png" alt="Linked In" height="40" width="40"></a></li>
+ 	<li class="link"><a href="https://github.com/S530742"><img src="git.png" alt="git" height="40" width="40"></a></li>
+  <li class="link"><a href="https://bitbucket.org/S530742/"><img src="bit.png" alt="bit" height="40" width="40"></a></li> 
+</ul>
+<h3>STUDENT GPA Calculator</h3>
+<table>
+<tr>
+<td>NAME/SID</td>
+<td><input type="text" id="sname" name="First_Name" style='width:100%' />
+</td>
+</tr>
+<td>Course</td>
+<td>
+  <select select="1">
+  <option value="course" maxlength="30">ACS</option>
+  <option value="course" maxlength="30">MSIS</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+  <form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  
+</form> 
+</td>
+</tr>
+
+<TR>
+<TD>Course 1 Grade</TD>
+<TD><INPUT TYPE="text" id="course1" style="width:20%" NAME="GR1" MAXLENGTH=1 id="grade1"></TD>
+</TR>
+<TR>
+<TD>Course 2 Grade</TD>
+<TD><INPUT TYPE="text" id="course2" style="width:20%" NAME="GR2" MAXLENGTH=1 id="grade2"></TD>
+</TR>
+<TR>
+<TD>Course 3 Grade</TD>
+<TD><INPUT TYPE="text" id="course3" style="width:20%" NAME="GR3" MAXLENGTH=1 id="grade3"></TD>
+</TR>
+<TR>
+<TD COLSPAN=1>
+<INPUT TYPE="BUTTON" VALUE="Calculate GPA" NAME="CalcButton"
+OnClick="gpacalc()"></TD>
+<TD id="total">0.0</TD>
+</TR>
+<TR>
+<TD COLSPAN=2>
+* Grade Should be A,B,C,D,F
+</TR>
+</table>
+</body>  
+</html>  
