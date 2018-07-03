@@ -64,7 +64,7 @@ app.post("/contact", function (request, response) {
       console.log(body);
       if(!error)
         {
-            response.redirect("/contact");       
+        //    response.redirect("/contact");       
         }
         else
         response.send("false"+error);
