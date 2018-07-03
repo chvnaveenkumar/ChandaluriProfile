@@ -24,7 +24,7 @@ app.get("/about", function (request, response) {
     response.sendFile(__dirname+"/assets/Chandaluri_NaveenKumar.html");
 });
 app.get("/student", function (request, response) {
-    response.sendFile(__dirname+"/assets/Student.html");
+    response.sendFile(__dirname+"/assets/student.html");
 });
 app.get("/contact", function (request, response) {
     response.sendFile(__dirname+"/assets/Contact.html");
