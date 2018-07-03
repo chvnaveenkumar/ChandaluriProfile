@@ -63,8 +63,10 @@ app.post("/contact", function (request, response) {
     mailgun.messages().send(data, function (error, body) {
       console.log(body);
       if(!error)
-        response.send("true"+error);
-      else
+        {
+            response.redirect("/contact");       
+        }
+        else
         response.send("false"+error);
     });
 });
